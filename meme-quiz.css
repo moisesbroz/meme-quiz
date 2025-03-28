@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+	font-family: Comic Sans MS, sans-serif;
+}
+
+h1 {
+	margin: 0px;
+	text-align: center;
+	font-size: 5em;
+}
+
+div {
+	display: block;
+	align-content: center;
+	width: auto;
+	height: 500px;
+}
+
+button {
+	display: block;
+	width: 150px;
+	height: 50px;
+	margin: 20px auto;
+	border: 5px solid rgb(103,12,12);
+	background-color: rgb(182,124,76);
+	font-size: 1.5em;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    border-color: green;
+}
+
+img {
+	position: absolute;
+	top: 250px;
+	width: 400px;
+	height: auto;
+	margin: 8px;
+}
+
+img#d {
+	right: 0px;
+}
